@@ -1,0 +1,44 @@
+<html lang = "eng">
+    <head>
+        <meta charset = "utf-8" />
+        <link rel = "icon" href = "/assets/weather-icon.jpg" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1" />
+        <meta name = "theme-color" content = "#000000" />
+        <meta name = "description" content = "Web site created using create-react-app" />
+        <link rel = "apple-touch-icon" href = "%PUBLIC_URL%/logo192.png" />
+        <link rel = "manifest" href = "%PUBLIC_URL%/manifest.json" />
+        <title>Offline</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+            }
+            h1 {
+                color: #333;
+            }   
+            .location {
+                font-size: 1.5em;
+                color: #666;
+            }
+            .temperature {
+                font-size: 2em;
+                color: #000;
+            }
+            .description {
+                font-size: 1.2em;
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>You are offline. Please check your internet connection.</h1>
+        <div class = "location">Location: N/A</div>
+        <div class = "temperature">Temperature: N/A</div>   
+        <div class = "description">Description: N/A</div>
+    </body>
+</html>
